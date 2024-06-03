@@ -1,1 +1,5 @@
 # Reproduce_NetTrack
+
+This is a reproduction of the core features of NetTrack.
+
+Highly dynamic objects in open-world environments challenge traditional multi-object tracking (MOT) technologies due to severe deformations, rapid motions, and frequent occlusions. Standard tracking methods often fail as they rely on coarse-grained visual cues that lose their effectiveness under such dynamic conditions. This paper introduces "NetTrack," a novel tracking framework that incorporates fine-grained learning to address these challenges effectively. Utilizing a dynamicity-aware association via a fine-grained Net, NetTrack leverages point-level visual cues for robust object tracking. Furthermore, it enhances object-text correspondence for improved localization. The framework's performance is demonstrated through rigorous evaluations on a newly introduced bird flock tracking (BFT) dataset, showcasing superior results in tracking highly dynamic objects. The extensive transfer experiments across various challenging benchmarks, i.e., TAO, TAO-OW, AnimalTrack, and GMOT-40, confirm the robustness and generalization capability of NetTrack, even without fine-tuning.
